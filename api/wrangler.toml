@@ -1,0 +1,11 @@
+name = "afiexplorer-api-v2"
+main = "src/index.ts"
+compatibility_date = "2023-10-10"
+
+[[kv_namespaces]]
+binding = "KV"
+# Obtain `id` from your Cloudflare Workers KV dashboard
+id = "a083f99d481040e7b47e5afea85b2cb6"
+
+[triggers]
+crons = ["*/10 * * * *"]
