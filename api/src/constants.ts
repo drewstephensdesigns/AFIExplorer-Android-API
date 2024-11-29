@@ -21,10 +21,13 @@ export const ROUTES: Route[] = [
     { path: "/v2/major-commands/air-mobility-command", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=9774&catID=2&series=-1" },
     { path: "/v2/major-commands/pacific-air-force", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=8&catID=2&series=-1" },
     { path: "/v2/major-commands/united-states-air-force-in-europe-af-africa", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=9&catID=2&series=-1" },
+    { path: "/v2/united-states-space-force/headquarters", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=16498&catID=20&series=-1"},
     { path: "/v2/united-states-space-force/space-operations-command", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=47&catID=20&series=-1" },
     { path: "/v2/united-states-space-force/space-systems-command", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=16297&catID=20&series=-1" },
+    { path: "/v2/united-states-space-force/space-training-readiness-command", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=16481&catID=20&series=-1"},
     { path: "/v2/united-states-space-force/united-states-space-force", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=16023&catID=20&series=-1" },
     { path: "/v2/united-states-space-force/ussf-coo", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=16254&catID=20&series=-1" },
+    { path: "/v2/united-states-soace-force/ussf-csro", url: "https://www.e-publishing.af.mil/DesktopModules/MVC/EPUBS/EPUB/GetPubsBySeriesView/?orgID=16330&catID=20&series=-1"},
     { path: "/v2/supplemental", url: "https://static.afiexplorer.com/index.json" }
 ];
 
